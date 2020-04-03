@@ -1,0 +1,61 @@
+        .panel
+        {
+            box-shadow: 2px 2px 20px;
+        }
+
+        .form-control
+        {
+            background-color: white;
+        }
+
+        #bodyid
+        {
+            background: black;
+        }
+
+        .popup{
+            margin:100px 50px 100px 200px;
+            box-shadow: 10px 10px 5px;
+            /* text-shadow: 2px 2px red; */
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #sureUyari
+        {
+            border-radius: 30px;
+            border: 5px solid brown;
+            padding: 60px 30px 50px 50px; 
+            width: 500px;
+            height: 150px;
+            background:lightcyan;  
+        }
+
+        #closebuton
+        {
+            margin: 100px 5px 5px 0px;
+        }
+
+        #buton-anasayfa
+        {
+            margin-left: 670px;
+        }
+        .panel-primary{
+        border-color:crimson;
+        }
+        .panel-primary > .panel-heading {
+        color: #fff;
+        background-color: crimson;
+        border-color: crimson;
+        }
+        .panel-primary > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: crimson;
+        }
+        .panel-primary > .panel-heading .badge {
+        color: crimson;
+        background-color: #fff;
+        }
+        .panel-primary > .panel-footer + .panel-collapse > .panel-body {
+        border-bottom-color: crimson;
+        }

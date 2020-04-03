@@ -1,0 +1,63 @@
+
+<body id="bodyid">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" style="margin: -5%;padding: 10%;padding-left: 18%;">
+                    <div class="panel panel-primary" id="paneledit">
+                    <div class="panel-heading">
+                        <strong>Kayıt Ol</strong>
+                    </div>
+                    <div class="panel-body">
+          
+                        <form action="/users/register" method="POST" enctype="multipart/form-data">
+                            <br>
+                            <div class="input-group">
+          
+                                <span class="input-group-addon" aria-hidden="true"><i class="glyphicon glyphicon-user"></i></span>
+                                <input type="text" name="name" id="isim" class="form-control" placeholder="İsminizi Girin">
+                            
+                            </div>
+                            <br>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                                <input type="text" name="tel" id="telefon" class="form-control" placeholder="Telefon numaranızı girin.">
+                            </div>
+                            <br>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                <input type="text" name="mail" id="mail" class="form-control" placeholder="Mailinizi girin.">
+                            </div>
+                            <br>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                <input type="password" name="password" id="parola" class="form-control" placeholder="Şifrenizi girin.">
+                            </div>
+                            
+                            
+
+                            <br><br>
+                            <div class="input-group">
+                                <label for="adres">Adresinizi girin:</label>
+                                <textarea name="address" id="address" cols="50" rows="5" class="form-control" maxlength="150"></textarea>
+                            </div>
+
+                            <br><br>
+                            <div class="form-group">
+                                    <label for="profilResmiSec">Profil resmini yükleyin.*</label>
+                                    <input type="file" class="form-control-file" name="picture" id="picture">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+                            <br><br><br>
+                            <div class="form-group">
+                                <a href="/" class="btn btn-danger" id="buton-anasayfa">Anasayfaya git</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

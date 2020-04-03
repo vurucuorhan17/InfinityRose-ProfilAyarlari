@@ -1,0 +1,64 @@
+
+<body>
+    
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-3">
+                <h2 style="border: 10px solid rosybrown ;background-color: grey;color: white;">InfinityRose</h2>
+            </div>
+            <div class="col-sm-6">
+                <h2>InfinityRose</h2>
+                <h3>Film Kiralama Sitesi</h3>
+            </div>
+            <div class="col-sm-3">
+                {{!-- <a href="#">TR </a>|<a href="#"> EN</a> --}}
+                <br>
+                <h4>Hoşgeldiniz {{user.name}}</h4>
+            </div>
+        </div>
+    </div>
+
+    
+    <nav class="navbar navbar-inverse" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home"></span> InfinityRose</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Anasayfa</a></li>
+                <li><a href="#">Filmler</a></li>
+                <li><a href="#">Öneriler</a></li>
+                <li><a href="#">Yeni Eklenen Filmler</a></li>
+            </ul>
+            
+            <form action="" class="navbar-form navbar-right" role="search"> 
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ara">
+                </div>
+                <button type="submit" class="btn btn-default">Gönder</button>
+                
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                    {{#unless displayTrue}}
+                    <li><a href="/users/login"><span class="glyphicon glyphicon-log-in"></span> Giriş Yap</a></li>
+                    <li><a href="/users/register"><span class="glyphicon glyphicon-user"></span>Kayıt Ol</a></li>
+                    {{/unless}}
+                    {{#if displayTrue}}
+                    <li><a href="/profil/user/{{sessionId}}"><span class="glyphicon glyphicon-user"></span> Profil Ayarları</a></li>
+                    <li><a href="/users/logout"><span class="glyphicon glyphicon-log-out"></span> Çıkış Yap</a></li>
+                    {{/if}}
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+    
+</body>
+</html>

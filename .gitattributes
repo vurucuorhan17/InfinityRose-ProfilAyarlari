@@ -1,4 +1,1 @@
-public/js/* linguist-vendored=false
-routes/* linguist-vendored=false
-models/* linguist-vendored=false
-app.js linguist-vendored=false
+views/* linguist-vendored

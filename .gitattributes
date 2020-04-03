@@ -1,0 +1,4 @@
+public/js/* linguist-vendored
+routes/* linguist-vendored
+models/* linguist-vendored
+app.js linguist-vendored

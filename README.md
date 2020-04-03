@@ -1,11 +1,11 @@
 # InfinityRose-ProfilAyarlari
-TR:Back-end tarafında NodeJS ve MongoDB kullanılan Film Kiralama Sitesinin Profil Ayarları bölümü.
+TR:Back-end tarafında NodeJS ve MongoDB kullanılan Film Kiralama Sitesinin Profil Ayarları bölümü.<br/>
 EN:Section of Profile Settings coding with NodeJS and MongoDB of the Film Hiring Site.
 
 ![alt text](public/img/infinityrose.gif)
 
-TR:Projenin çalışması için gerekli paketler:
-EN:Necessary packages for execute project: 
+TR:Projenin çalışması için gerekli paketler:<br/>
+EN:Necessary packages for execute project: <br/>
 
 - nodemon
 - express
